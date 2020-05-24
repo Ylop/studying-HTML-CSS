@@ -11,11 +11,11 @@ Estudando e (re)aprendendo HTML, CSS
 >após botão menu ser acionado
 
 ---
-###Template:
+### Template:
 
 + Desenvolvido do zero
 
 ---
-###Objetivo:
+### Objetivo:
 
 + Experimento de transisão do menu sem necessidade de javascript, apenas com o uso do CSS.
