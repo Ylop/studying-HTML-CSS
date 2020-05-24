@@ -1,0 +1,89 @@
+
+/*TOPO*/
+#all{
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+}
+#topo img{
+    width: 30%;
+}
+#topo h1{ 
+    font-size: 35px;
+    text-align: right;
+    border-bottom: 5px solid #960584;
+    color: #922585;
+    font-family: 'Francois One', sans-serif;
+}
+/*MENU*/
+#menu{
+    border-bottom: 5px solid #ddc1da;
+}
+#check{
+    display: none;
+}
+#icone{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+.barra{
+    background-color: #ddc1da;
+    height: 100px;
+    width: 960px;
+    position: absolute;
+    transition: all 0.2s linear;
+    top: -100px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+nav a {
+    text-decoration: none;
+}
+.link{
+    background-color: #FFFFFF;
+    margin-left: 5px;
+    padding: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    transition: all 0.2s linear;
+    color: black;
+    border-bottom: 2px solid #d48acd;
+    opacity: 0;
+    display: inline;
+    border-radius: 12px;
+}
+.link:hover{
+    text-decoration: underline;
+    color:#960584;
+}
+#check:checked ~ .barra{
+    transform: translatey(337px)
+}
+#check:checked ~ .barra nav a .link{
+    opacity: 1;
+    margin-top: 0;
+    transition-delay: 0.2s;
+}
+/*HOME*/
+#home_conteudo{
+    padding-top:  180px;
+    padding-left:  70px;
+    padding-bottom:  150px;
+    margin-bottom: 50px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.black{
+    color: #960584;
+}
+.citacao{
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+    margin: 40px;
+}
