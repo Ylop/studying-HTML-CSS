@@ -8,7 +8,7 @@ Estudando e (re)aprendendo HTML, CSS
 ---
 ### Objetivo:
 
-+ Experimento de transisão do menu sem necessidade de javascript, apenas com o uso do CSS.
++ Experimento de transição do menu sem necessidade de javascript, apenas com o uso do CSS.
 
 ---
 ### Imagens
