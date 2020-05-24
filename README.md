@@ -1,4 +1,3 @@
-# studying-HTML-CSS
 Estudando e (re)aprendendo HTML, CSS
 
 ---
